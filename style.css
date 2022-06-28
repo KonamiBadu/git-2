@@ -9,7 +9,7 @@
 body{
     font-family: "font-1", sans-serif;
     background-color: rgba(137, 146, 57, 0.384);
-    background: url(./assets/unlimited\ logo.jpg) no-repeat fixed center/cover
+    background: url(./assets/beach-1799006_1920.jpg) no-repeat fixed center/cover
 
     ;
     height: 100vh;
@@ -21,7 +21,7 @@ h1 {text-transform: uppercase
     letter-spacing: 2px;
     font-size: 3.5rem;
     color: #000000;
-    text-shadow: 1px 2px 3px #f911308f;
+    text-shadow: 1px 2px 3px #37f7618f;
     text-align: center;
     font-family: 'Staatliches', cursive;
 
