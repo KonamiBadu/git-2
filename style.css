@@ -1,0 +1,31 @@
+/*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@font-face {
+    font-family: "font-1";
+    src: url(./assets/Staatliches-Regular.ttf);
+}
+body{
+    font-family: "font-1", sans-serif;
+    background-color: rgba(137, 146, 57, 0.384);
+    background: url(./assets/unlimited\ logo.jpg) no-repeat fixed center/cover
+
+    ;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {text-transform: uppercase
+    ;
+    letter-spacing: 2px;
+    font-size: 3.5rem;
+    color: #000000;
+    text-shadow: 1px 2px 3px #f911308f;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+
+
+
+
+}
