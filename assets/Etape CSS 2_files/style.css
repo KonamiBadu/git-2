@@ -24,14 +24,8 @@ h1 {text-transform: uppercase
     text-shadow: 1px 2px 3px #37f7618f;
     text-align: center;
     font-family: 'Staatliches', cursive;
-}
 
-main{
-    background: rgb(36, 34, 26);
-    color: rgb(15, 175, 90);
-    width: 90px;
-    min-height: 4000px;
-    margin: 0 auto;
-    padding: 10px;
-    border-radius: 20px;
+
+
+
 }
