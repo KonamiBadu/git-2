@@ -25,6 +25,8 @@ h1 {text-transform: uppercase
     font-family: 'Staatliches', cursive;
 }
 
+/********************** POSITIONING******************************/
+
 main{
     background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -35,11 +37,15 @@ main{
     border-radius: 20px;
     box-shadow: 0px 2px 15px rgb(52 61 21 / 73%);
 }
-.positioning {
+.positioning,
+ .flexbb {
     border: 2px solid rgb(72, 145, 123);
     padding: 10px;
     border-radius: 10px;
 
+}
+.flexbb {
+    margin-top: 10px;
 }
 
 #circle {
@@ -62,8 +68,37 @@ main{
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
-
-    
 }
+
+/******************************** FLEXBOX ****************************/
+
+
+/*#flexbby {
+    height: 20px;
+    width: 90px;
+    color: rgba(227, 21, 21, 0.925);
+    background: rgba(255, 255, 255, 0.088);
+
+}*/
+
+ul {
+    display: flex ;
+    justify-content: space-around;
+    padding: 0px;
+
+}
+
+li {
+    list-style-type: square;
+    font-size: 1.1rem;
+    height: 126px;
+    width: 120px;
+    background: rgb(84, 121, 29) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/************************** G R I D ******************************/
+
